@@ -2,6 +2,9 @@
 
 * Made to calculate open times and close times for checkpoints in a brevet. It does so using Flask to handle the page serving and mongoDB to store the data. It also offers rest APIs which can be accessed to get the open and close times in JSON or CSV format. These APIs are protected, and require a token.
 
+![flask2](https://user-images.githubusercontent.com/22786772/57172765-54d3ac80-6dd9-11e9-9411-94b1508b73ae.png)
+![flask1](https://user-images.githubusercontent.com/22786772/57172766-54d3ac80-6dd9-11e9-99f5-318f884b8a88.png)
+
 The token can be viewed and assigned many ways.
 
 The user can register and login on the frontend of the server. Upon logging in, a token will be generated and that token will remain valid for 10 minutes.
@@ -62,6 +65,5 @@ Example curl request:
 
 Simply add "?top=<n>" to make the api return only the top 'n' values of the query.
 	
-![flask2](https://user-images.githubusercontent.com/22786772/57172765-54d3ac80-6dd9-11e9-9411-94b1508b73ae.png)
-![flask1](https://user-images.githubusercontent.com/22786772/57172766-54d3ac80-6dd9-11e9-99f5-318f884b8a88.png)
+
 
