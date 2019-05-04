@@ -61,3 +61,7 @@ Example curl request:
 		```
 
 Simply add "?top=<n>" to make the api return only the top 'n' values of the query.
+	
+![flask2](https://user-images.githubusercontent.com/22786772/57172765-54d3ac80-6dd9-11e9-9411-94b1508b73ae.png)
+![flask1](https://user-images.githubusercontent.com/22786772/57172766-54d3ac80-6dd9-11e9-99f5-318f884b8a88.png)
+
